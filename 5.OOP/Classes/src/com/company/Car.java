@@ -13,7 +13,7 @@ public class Car {
     public void setModel(String model){
         String validModel = model.toLowerCase();
         //validation
-        
+
         if(validModel.equals("carrera") || validModel.equals("commodore"))
             this.model = model;
         else
