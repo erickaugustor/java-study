@@ -25,7 +25,7 @@ public class Animal {
     }
 
     public void move(int speed){
-        System.out.println("Animal.move() called. Animal is movin at " + speed);
+        System.out.println("Animal.move(not override) called. Animal is movin at " + speed);
     }
 
 
