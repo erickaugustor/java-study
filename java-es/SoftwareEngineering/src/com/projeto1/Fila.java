@@ -1,10 +1,34 @@
 package com.projeto1;
 
-public class Fila <X>{
+import java.lang.reflect.Method;
+
+public class Fila <X> implements Cloneable{
     private Object[] item;
     private int      inicio =  0;
     private int      fim    = -1;
     private int      qtd    =  0;
+
+
+
+    private  X meuClonedeX (X modelo){
+        X ret = null;
+        try{
+
+            Class<?> classe =  modelo.getClass();
+            Class<?>[] tipodoParametroFormal = null;
+            Method metodo = classe.getMethod("clone", tipodoParametroFormal);
+            Object[] parametroReal = null;
+            ret = (X)metodo.invoke(modelo, parametroReal);
+
+        }catch (Exception erro){
+            // ignorar erro
+        }
+
+        return ret;
+    }
+
+
+
 
     public Fila (int capacidade) throws Exception{
         // construtor
@@ -21,6 +45,31 @@ public class Fila <X>{
         this.item = new Object [capacidade];
     }
 
+    /*
+    *       Forma fácil de isolar o hífen
+    *
+    *       String uni = "PUC-CAMPINAS";
+    *       char sep = uni.charAt(3);
+    *
+    *       Demoniaco:
+    *
+    *       String uni = "PUC-CAMPINAS";
+    *       char sep;
+    *
+    *                                                                               // obj da classe class:
+    *       Class<?> classe = uni.getClass();
+    *       Integer parametro = 3;
+    *       Class<?>[] parmFormal = new Class<?>[1];                                //1 pq charAt só tem 1 parametro
+    *       parmFormal[0] = parametro.getClass();                                    //guardou integer
+    *       Method metodo = classe.getMethod("charAt", paramFormal);
+    *       Object[] paramtroReal = new Object [1];                                  // 1 pq ChartAt
+    *       parametroReal [0] = parametro;                                          // coloca o 3
+    *       sep = ((Character)metodo.invoke(uni, parametroReal)).charValue();
+    *
+    *
+    */
+
+
     public void guarde (X x) throws Exception{
         if (x==null)
             throw new Exception ("Informacao ausente");
@@ -32,9 +81,21 @@ public class Fila <X>{
         if (this.fim==this.item.length)
             this.fim = 0;
 
-        if(this.item[this.fim] instanceof Cloneable)
-            this.item[this.fim] = x.clone();
-        else
+        if(this.item[this.fim] instanceof Cloneable) {
+            //this.item[this.fim] = x.clone();
+
+            /*
+            Class<?> classe = x.getClass();
+            Class<?>[] parmFormal = null;                                  // null pq clone n tem parametros
+            Method metodo = classe.getMethod("clone");
+            Object[] parametroReal = null;                                  // 1 pq ChartAt
+            this.item[this.fim] = (X)metodo.invoke(x, parametroReal);
+            // não é necessario, o convencimento para X
+            */
+
+            this.item[this.fim] = meuClonedeX(x);
+
+        }else
             this.item[this.fim] = x;
 
         //encapsulamento, não deixa ngm de fora acessar/retornar
@@ -47,9 +108,11 @@ public class Fila <X>{
             throw new Exception ("Vazio");
 
         if(this.item[this.inicio] instanceof Cloneable)
-            return (X)this.item[this.inicio].clone();
+            return meuClonedeX((X)this.item[this.inicio]);
         else
             return (X)this.item[this.inicio];
+
+        // voltar para anta, então tem que por clone
     }
 
     public void jogueForaUmItem () throws Exception
@@ -213,6 +276,48 @@ public class Fila <X>{
     // quando sua classe tem alguma coisa que altera os valores do atributo
     // quando isso acontecer, é necessário o clone
 
+    // construtor não conta! :(
+
+    // 1 chamar o clone, sempre que vc armazenar algo que vem da anta, ou que vai pra anta
+    // sempre que altera atributo
+
+
+
+    // REALIZEI OS CLONES ACIMA
+    // toda essa confusão vem de clonar algo do tipo X
+
+
+
+    // Classe genérica para estrutura de dados!!!!!!!!!!!!!!!!!!!!!!
+
+    public Fila (Fila<X> modelo) throws Exception {
+        if (modelo == null) {
+            throw new Exception("Modelo ausente");
+        }
+
+        this.qtd = modelo.qtd;
+        this.inicio = modelo.inicio;
+        this.fim = modelo.fim;
+        this.item = new Object[modelo.item.length];
+
+        for (int i = 0; i < modelo.item.length; i++) {
+            this.item[i] = modelo.item[i];
+        }
+
+    }
+
+    public Object clone() {
+
+        Fila<X> ret = null;
+
+        try {
+            ret = new Fila(this);
+        } catch (Exception erro) {
+
+        }
+
+        return ret;
+    }
 
 
 
