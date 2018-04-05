@@ -3,6 +3,15 @@ package com.projeto1;
 import java.lang.reflect.Method;
 
 public class Fila <X> implements Cloneable{
+    //herda de Cloneable
+    //Cloneable é uma interface  ->  herdou .clone()
+
+    //métodos de uma interface são abstratos
+    //mas o que são abstratos? quem herdar tem que implementar
+    //tem clone sem implementar
+    //clone sem implementar
+        //se não fizer clone, dá erro
+
     private Object[] item;
     private int      inicio =  0;
     private int      fim    = -1;
@@ -11,6 +20,18 @@ public class Fila <X> implements Cloneable{
 
 
     private  X meuClonedeX (X modelo){
+
+        //fazer isso caso não seja clone:
+
+        // return (X)modelo.clone();
+
+
+        //nem testar se é clone
+
+
+        //isso é pq isso é um inferno que eu deveria colocar em mtas lugares
+        //método que eu fiz
+
         X ret = null;
         try{
 
@@ -18,7 +39,15 @@ public class Fila <X> implements Cloneable{
             Class<?>[] tipodoParametroFormal = null;
             Method metodo = classe.getMethod("clone", tipodoParametroFormal);
             Object[] parametroReal = null;
-            ret = (X)metodo.invoke(modelo, parametroReal);
+            ret = (X)metodo.invoke(modelo, parametroReal);          //invoke, tenho que clonar algo do tipo X, sei que X é uma classe que herda de Object, mas clone não está em object
+                                                                    // sei que X tem clone, pq foi testado no clone, if(Conable) chama o método
+                    // como é o demonio do try? declrar algo do tipo Class, guardar X dentro da Class, getMethod dá exception, por isso dentro do try, pegar na classe o clone
+                    // parametro formal, varios metodos do mesmo nome com paramtros diferente, logo, clone com parametros do tipo formal
+                    // como não tem paramtro, coloco null, pega então o metodo clone com esses parametros
+                    // metodo para chamar outro, invoke invoca o clone
+                    // this do clone e o this do invoke, logo, o this do invoke é o metodo, pq coloca metodo.invoke.
+                    // quem é o this do clone? logo, passo como parametro o this que o modelo é o this.
+                    // logo o invoke chama o clone sem passar parametro
 
         }catch (Exception erro){
             // ignorar erro
@@ -108,9 +137,11 @@ public class Fila <X> implements Cloneable{
             throw new Exception ("Vazio");
 
         if(this.item[this.inicio] instanceof Cloneable)
-            return meuClonedeX((X)this.item[this.inicio]);
-        else
+            return meuClonedeX((X)this.item[this.inicio]);              //classe generica, clonar algo do tipo misterioso
+        else                                                            //SE NÃO FOR GENERICA, COLOCAR AQELA LINHA ALI DA LINHA DE CIMA .CLONE()
             return (X)this.item[this.inicio];
+            // a anta terá acesso a algo que não é ponteiro
+            // mas a anta não conseguirá alternar
 
         // voltar para anta, então tem que por clone
     }
@@ -311,9 +342,24 @@ public class Fila <X> implements Cloneable{
         Fila<X> ret = null;
 
         try {
-            ret = new Fila(this);
-        } catch (Exception erro) {
+            ret = new Fila<X>(this);
 
+            /*
+            * O mesmo seria fazer
+            *
+            * Fila<X> ret = null;
+            * try{
+            *   ret = new Fila<X>(this.item.length);
+            * }catch(Excepetion erro){
+            *   //sei que o tamanho já ta pronta, que no caso é o tamanho do this, então já está validado pelo construtor que construiu a fila
+            * }
+            *
+            *
+            *
+            *
+            * */
+        } catch (Exception erro) {
+            // sei que não ha erro pq o construtor de copia tem excessao, e o this nunca é nulo, em método nenhum
         }
 
         return ret;
