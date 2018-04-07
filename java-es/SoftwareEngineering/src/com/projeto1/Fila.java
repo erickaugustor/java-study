@@ -366,6 +366,131 @@ public class Fila <X> implements Cloneable{
     }
 
 
+    /*
+    *
+    *  CompareTo
+    *
+    *  CompareTo, colocar no topo da classe, "implements Comparable"!
+    *  Quando fazer? Quando tiver lidando com uma classe, e ver que tem sentido,
+    *  tem cabimento, ordernar os objetos em crescente ou decrescente.
+    *
+    *  Tem cabimento? Implementar.
+    *
+    *  Ordenar os objetos de fila.
+    *  ordenar por qtd é uma forma!
+    *  se qtd não é menor, nem maior, é igual.
+    *
+    *  Se equals dá falso, ou resulta em < e >
+    *  Se o equals dá true, o CompareTo resulta em =
+    *
+    *  Mas se o equals diz que é falso, pq os conteudos são diferentes, como funciona para o compareTo?
+    *  CompareTo iria ver o qtd, por exemplo, assim daria erro, porque seriam possivel 4 resultados
+    *  < > = e diferente mas com o qtd igual, assim, não é uma ordem
+    *
+    * */
+
+    /*
+    *
+    *  Tipos primitivos e afins.
+    *
+    *  Classes que possuem seus tipos.
+    *  8 Classes que são dos tipos ==> Wrapper = Embrulhar
+    *  Classes embrulhadoras, elas capsulam dela um tipo primitivo.
+    *
+    *  Todas as classas Wrappers são Comporable.
+    *  Char é Comparale, porque leva em conta o resultado da tabela UNICODE.
+    *  String é Comparable, ordem lexográfica.
+    *
+    *
+    *  Tirando essas classas, são raras as classes que tem Comparable.
+       É super comum ter clone.
+    *
+    * */
+
+    /*
+    *       public class Data implements Comparable<Data>, Coneable   //Comparable recebe data como parametro
+    *       {
+    *           private int dia, mes, ano;
+    *
+    *           //construtor
+    *
+    *           public Data (int dia, int mes, int ano) throws Exception{
+    *               // mesmo não jogar excessão, ainda quero que o usuário saiba do erro
+    *               this.setAno(ano);
+    *               this.setMes(mes);
+    *               this.setDia(dia);
+    *               // nessa ordem PELAMORDEDEUS
+    *           }
+    *
+    *           //...
+    *           //setters
+    *
+    *           public void setDia(int d) throws Exception {        //importante lançar erro
+    *           {
+    *               if (dia < 1 || dia > 31)
+    *                   throw new Exception ("Dia invalido");
+    *               if ((this.mes == 4 || this.mes == 6 || this.mes == 9 || this.mes == 11) && dia > 30)
+    *                   throw new Exception ("Dia invalido");
+    *               if(this.mes == 2 && !(this.ano % 4 == 0  || (this.ano % 100 != 0 && this.ano % 400 == 0)) && this.dia > 28)
+    *                   throw new Exception ("Dia invalido");
+    *
+    *               this.dia = dia;         //Nome igual, tem que colocar o this pra referência certa
+    *
+    *           }
+    *
+    *           public void setMes(int mes) throws Exception{
+    *               if(mes < 1 || mes > 12)
+    *                   throw new Exception("Mes invalido");
+    *
+    *               this.mes = mes;
+    *           }
+    *
+    *           public void setAno(int ano) throws Exception{
+    *               this.ano = ano;
+    *           }
+    *
+    *          public int getAno(){
+    *               return this.ano;
+    *               // Só estou retornando sem clone, porque estão retornando valores escalares, não são instancias de classas, não são ponteiros
+    *               // Caso fosse retornado uma instancia, deveriamos chegar na documentação se a classe da Instancia é Cloneable e, neste caso,
+    *               // deveriamos retornar uma cópia criada pelo método clone
+    *               // Não sendo Coneable, pode-se retornar sem clonar mesmo.
+    *          }
+    *
+    *
+    *           // Como deve funcionar? Comparar this e d, para decidir na ordem crescente, quem vem antes,
+    *           // quem vem depois, ou se são iguais.
+    *
+    *           // Caso se conclua que o this vem antes,    deve se retornar um valor negativo, qualquer um.
+    *           // Caso se conclua que o this vem depois,   deve se retornar um valor positivo.
+    *           // Caso se conclua que o this é igual,      deve se retornar zero.
+    *
+    *           public int compareTo(Data d)
+    *           {
+    *
+    *               if(this.ano < d.ano)
+    *                   return -666;
+    *
+    *               if(this.ano > d.ano)
+    *                   return 666;
+    *
+    *               if(this.mes < d.mes)
+    *                   return -666;
+    *
+    *               if(this.mes > d.mes)
+    *                   return 666;
+    *
+    *               if(this.dia < d.dia)
+    *                   return -666;
+    *
+    *               if(this.dia > d.dia)
+    *                   return 666;
+    *
+    *               return 0;
+    *
+    *           }
+    *       */
 
 }
+
 
