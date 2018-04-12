@@ -2,125 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deb0ab16-3a82-4c3a-959d-2b5f8e49d75e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/java-study.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/1.HelloWorld/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1.HelloWorld/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1.HelloWorld/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1.HelloWorld/1.HelloWorld.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1.HelloWorld/out/production/1.HelloWorld/Hello.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1.HelloWorld/src/Hello.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2.DataType+Operators/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2.DataType+Operators/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2.DataType+Operators/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2.DataType+Operators/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2.DataType+Operators/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2.DataType+Operators/2.DataType+Operators.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2.DataType+Operators/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3.ExpressionsStatementsMethods/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3.ExpressionsStatementsMethods/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3.ExpressionsStatementsMethods/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3.ExpressionsStatementsMethods/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3.ExpressionsStatementsMethods/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3.ExpressionsStatementsMethods/3.ExpressionsStatementsMethods.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3.ExpressionsStatementsMethods/out/production/3.ExpressionsStatementsMethods/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3.ExpressionsStatementsMethods/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4.ControlFlow/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4.ControlFlow/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4.ControlFlow/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4.ControlFlow/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4.ControlFlow/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4.ControlFlow/4.ControlFlow.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4.ControlFlow/out/production/4.ControlFlow/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/4.ControlFlow/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/out/production/untitled104/com/company/Car.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/out/production/untitled104/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/src/com/company/Car.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Classes/untitled104.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/Constructors.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/out/production/Constructors/com/company/Bank.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/out/production/Constructors/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/out/production/Constructors/com/company/VipCustomer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/src/com/company/Bank.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Constructors/src/com/company/VipCustomer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/Inheritance.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/out/production/Inheritance/com/company/Animal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/out/production/Inheritance/com/company/Dog.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/out/production/Inheritance/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/src/com/company/Animal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/src/com/company/Dog.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/src/com/company/Fish.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/Inheritance/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/InheritanceChallenge.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/out/production/InheritanceChallenge/com/company/Car.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/out/production/InheritanceChallenge/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/out/production/InheritanceChallenge/com/company/Outlander.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/out/production/InheritanceChallenge/com/company/Vehicle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/src/com/company/Car.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/src/com/company/Outlander.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5.OOP/InheritanceChallenge/src/com/company/Vehicle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/Composition.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/Car.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/Case.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/Dimensions.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/Monitor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/Motherboard.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/PC.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/Resolution.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/out/production/Composition/com/company/Vehicle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/Car.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/Case.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/Dimensions.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/Monitor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/Motherboard.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/PC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/Resolution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/Composition/src/com/company/Vehicle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/CompositionChallenge.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/src/com/company/Bed.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/src/com/company/Bedroom.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/src/com/company/Ceiling.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/src/com/company/Lamp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/6.OOP/CompositionChallenge/src/com/company/Wall.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/.idea/workspace.xml" afterPath="$PROJECT_DIR$/java-es/SoftwareEngineering/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -131,6 +15,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -145,6 +32,7 @@
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -160,6 +48,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,10 +63,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,6 +219,32 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java-es/SoftwareEngineering/src/com/projeto1/Fila.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="493" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-es-project/ArithmeticExpressionCalculator/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-es-project/ArithmeticExpressionCalculator/ArithmeticExpressionCalculator.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
