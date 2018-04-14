@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.StringTokenizer;
 
-public class Expressao {
+public class Expressao extends Calculo{
 
     private String expressao;
 
@@ -41,7 +41,10 @@ public class Expressao {
     private void quebrarString() throws Exception{
         StringTokenizer quebrador = new StringTokenizer(expressao, "+-*/^()", true);
 
-        Pilha<String>pilhaDeOperacao = new Pilha<String>(expressao.length());
+        Pilha<String>   pilhaDeOperacao = new Pilha<String>(expressao.length());
+        Fila<String>    filaDeCalculo   = new Fila<String>(expressao.length());
+        Tabela tabela = new Tabela();
+
     }
 
 }

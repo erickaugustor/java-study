@@ -68,6 +68,17 @@ public class Pilha<X> implements Cloneable {
         return this.posicaoTopo;
     }
 
+    public boolean estaVazia(){
+        if(posicaoTopo<0)
+            return true;
+        return false;
+    }
+
+    public boolean estaCheia(){
+        if(posicaoTopo == pilha.length-1)
+            return true;
+        return false;
+    }
 
 
     /* MÉTODOS OBRIGATÓRIOS */
