@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.StringTokenizer;
+
 public class Expressao {
 
     private String expressao;
@@ -34,6 +36,12 @@ public class Expressao {
         }else{
             throw new Exception("Algum dado não faz parte de uma expressão matemática!");
         }
+    }
+
+    private void quebrarString() throws Exception{
+        StringTokenizer quebrador = new StringTokenizer(expressao, "+-*/^()", true);
+
+        Pilha<String>pilhaDeOperacao = new Pilha<String>(expressao.length());
     }
 
 }
