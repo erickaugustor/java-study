@@ -151,5 +151,5 @@ public class Pilha<X> implements Cloneable {
 
         return ret;
     }
-    
+
 }
