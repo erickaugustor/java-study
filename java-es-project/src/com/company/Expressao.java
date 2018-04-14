@@ -45,6 +45,14 @@ public class Expressao extends Calculo{
         Fila<String>    filaDeCalculo   = new Fila<String>(expressao.length());
         Tabela tabela = new Tabela();
 
+        String pedacoDaOperacao;
+
+        do{
+            pedacoDaOperacao = quebrador.nextToken();
+
+        }while(quebrador.hasMoreTokens());
+
+
     }
 
 }

@@ -9,16 +9,16 @@ public class Tabela {
             // linha
             for(int j=0; i<7; j++){
                 //coluna
-                if(i>=0 && i<=1){
+                if(i<=1 && i>=0){
                     operadores[i][j] = false;
-                }else if(i>=2 && i<=3){
-                    if(j>=1 && j<=3){
+                }else if( i<=3 && i>=2){
+                    if(j<=3 && j>=1){
                         operadores[i][j] = true;
                     }else{
                         operadores[i][j] = false;
                     }
-                }else if(i>=4 && i<=6){
-                    if(j>=1 && j<=5){
+                }else if(i<=6 && i>=4){
+                    if(j<=5 && j>=1){
                         operadores[i][j] = true;
                     }else{
                         operadores[i][j] = false;
