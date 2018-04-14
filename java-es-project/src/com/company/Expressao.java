@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 
 public class Expressao extends Calculo{
 
-    private String expressao;
+    private String expressao, resultado;
 
     public Expressao(String expressaoUser) throws Exception{
         this.expressao = transformarExpressao(expressaoUser);
@@ -24,14 +24,14 @@ public class Expressao extends Calculo{
 
     private boolean validarExpressao(Character exp) throws Exception{
         String expressaoMatematica = exp.toString();
-        if(ehOperacao(exp) || expressaoMatematica.matches("[0-9]")){
+        if(ehSimboloValido(exp) || expressaoMatematica.matches("[0-9]")){
             return true;
         }else{
             throw new Exception("Algum dado não faz parte de uma expressão matemática!");
         }
     }
 
-    private void quebrarString() throws Exception{
+    private void realizarExpressao() throws Exception{
         StringTokenizer quebrador = new StringTokenizer(expressao, "+-*/^()", true);
 
         Pilha<String>   pilhaDeOperacao = new Pilha<String>(expressao.length());
@@ -43,10 +43,10 @@ public class Expressao extends Calculo{
         do{
             pedacoDaOperacao = quebrador.nextToken();
 
-            if(pedacoDaOperacao.charAt(0) == '('){
+            if(ehAbre(pedacoDaOperacao.charAt(0))){
                 pilhaDeOperacao.guarde(pedacoDaOperacao);
 
-            }else if(pedacoDaOperacao.charAt(0) == ')'){
+            }else if(ehFecha(pedacoDaOperacao.charAt(0))){
                 do{
                     filaDeCalculo.guarde(pilhaDeOperacao.getUmItem());
                     pilhaDeOperacao.jogueForaUm();
@@ -58,7 +58,7 @@ public class Expressao extends Calculo{
             }else if(ehNumero(pedacoDaOperacao)){
                 filaDeCalculo.guarde(pedacoDaOperacao);
 
-            }else if(ehOperacao(pedacoDaOperacao.charAt(0))){
+            }else if(ehOperador(pedacoDaOperacao.charAt(0))){
                 if(!(pilhaDeOperacao.estaVazia())){
                     while(!(pilhaDeOperacao.estaVazia()) && tabela.valorDaOperacao(pedacoDaOperacao.charAt(0), pilhaDeOperacao.getUmItem().charAt(0))){
                         filaDeCalculo.guarde(pilhaDeOperacao.getUmItem());
@@ -78,6 +78,32 @@ public class Expressao extends Calculo{
             pilhaDeOperacao.jogueForaUm();
         }
 
+
+        Pilha<String>   pilhaResultado  = new Pilha<String>(filaDeCalculo.getQuantosElementos());
+        char operacao;
+        double valorUm, valorDois;
+
+        do{
+            while(!(ehOperador(filaDeCalculo.getUmItem().charAt(0)))){
+                pilhaResultado.guarde(filaDeCalculo.getUmItem());
+                filaDeCalculo.jogueForaUmItem();
+            }
+
+            if(ehOperador(filaDeCalculo.getUmItem().charAt(0))){
+                operacao = filaDeCalculo.getUmItem().charAt(0);
+                filaDeCalculo.jogueForaUmItem();
+
+                valorDois = Double.parseDouble(pilhaResultado.getUmItem());
+                pilhaResultado.jogueForaUm();
+
+                valorUm = Double.parseDouble(pilhaDeOperacao.getUmItem());
+                pilhaResultado.jogueForaUm();
+
+                pilhaResultado.guarde(String.valueOf(calcular(valorUm, operacao, valorDois)));
+            }
+        }while(!(filaDeCalculo.vazia()));
+
+        this.resultado = pilhaResultado.getUmItem();
     }
 
     private boolean ehNumero(String pedaco){
@@ -92,16 +118,31 @@ public class Expressao extends Calculo{
         return true;
     }
 
-    private boolean ehOperacao(Character operador){
-        if(operador.equals('*')
-                || operador.equals('/')
-                || operador.equals('-')
-                || operador.equals('+')
-                || operador.equals('^')
-                || operador.equals(')')
-                || operador.equals('('))
+    private boolean ehSimboloValido(Character simbolo){
+        if(ehAbre(simbolo) || ehFecha(simbolo) || ehOperador(simbolo))
             return true;
         return false;
     }
 
+    private boolean ehAbre(Character abre){
+        if(abre.equals('('))
+            return true;
+        return false;
+    }
+
+    private boolean ehFecha(Character abre){
+        if(abre.equals(')'))
+            return true;
+        return false;
+    }
+
+    private boolean ehOperador(Character operador){
+        if(operador.equals('*')
+                || operador.equals('/')
+                || operador.equals('-')
+                || operador.equals('+')
+                || operador.equals('^'))
+            return true;
+        return false;
+    }
 }
