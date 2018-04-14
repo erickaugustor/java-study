@@ -24,14 +24,7 @@ public class Expressao extends Calculo{
 
     private boolean validarExpressao(Character exp) throws Exception{
         String expressaoMatematica = exp.toString();
-        if(expressaoMatematica.equals('*')
-                || expressaoMatematica.equals('/')
-                || expressaoMatematica.equals('-')
-                || expressaoMatematica.equals('+')
-                || expressaoMatematica.equals('^')
-                || expressaoMatematica.equals(')')
-                || expressaoMatematica.equals('(')
-                || expressaoMatematica.contains("^[0-9]")){
+        if(ehOperacao(exp) || expressaoMatematica.matches("[0-9]")){
             return true;
         }else{
             throw new Exception("Algum dado não faz parte de uma expressão matemática!");
@@ -50,9 +43,65 @@ public class Expressao extends Calculo{
         do{
             pedacoDaOperacao = quebrador.nextToken();
 
+            if(pedacoDaOperacao.charAt(0) == '('){
+                pilhaDeOperacao.guarde(pedacoDaOperacao);
+
+            }else if(pedacoDaOperacao.charAt(0) == ')'){
+                do{
+                    filaDeCalculo.guarde(pilhaDeOperacao.getUmItem());
+                    pilhaDeOperacao.jogueForaUm();
+
+                    if(pilhaDeOperacao.estaVazia())
+                        throw new Exception("Você colocou um fecha errado!");
+                }while(pilhaDeOperacao.getUmItem().charAt(0) != '(' && pilhaDeOperacao.estaVazia());
+
+            }else if(ehNumero(pedacoDaOperacao)){
+                filaDeCalculo.guarde(pedacoDaOperacao);
+
+            }else if(ehOperacao(pedacoDaOperacao.charAt(0))){
+                if(!(pilhaDeOperacao.estaVazia())){
+                    while(!(pilhaDeOperacao.estaVazia()) && tabela.valorDaOperacao(pedacoDaOperacao.charAt(0), pilhaDeOperacao.getUmItem().charAt(0))){
+                        filaDeCalculo.guarde(pilhaDeOperacao.getUmItem());
+                    }
+                    pilhaDeOperacao.guarde(pedacoDaOperacao);
+                }else {
+                    pilhaDeOperacao.guarde(pedacoDaOperacao);
+                }
+            }else{
+                throw new Exception("Algo está errado!");
+            }
+
         }while(quebrador.hasMoreTokens());
 
+        while(!(pilhaDeOperacao.estaVazia())){
+            filaDeCalculo.guarde(pilhaDeOperacao.getUmItem());
+            pilhaDeOperacao.jogueForaUm();
+        }
 
+    }
+
+    private boolean ehNumero(String pedaco){
+        double numero;
+
+        try{
+            Double.parseDouble(pedaco);
+        }catch(NumberFormatException erro){
+            return false;
+        }
+
+        return true;
+    }
+
+    private boolean ehOperacao(Character operador){
+        if(operador.equals('*')
+                || operador.equals('/')
+                || operador.equals('-')
+                || operador.equals('+')
+                || operador.equals('^')
+                || operador.equals(')')
+                || operador.equals('('))
+            return true;
+        return false;
     }
 
 }

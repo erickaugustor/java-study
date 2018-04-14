@@ -19,23 +19,23 @@ public class Calculo {
           throw new Exception("A operação não é capaz de ser realizada!");
     }
 
-    protected static double somar(double a, double b){
+    private static double somar(double a, double b){
         return(a+b);
     }
 
-    protected static double subtrair(double a, double b){
+    private static double subtrair(double a, double b){
         return(a-b);
     }
 
-    protected static double dividir(double a, double b){
+    private static double dividir(double a, double b){
         return(a/b);
     }
 
-    protected static double multiplicar(double a, double b){
+    private static double multiplicar(double a, double b){
         return(a*b);
     }
 
-    protected static double exponenciacao(double a, double b){
+    private static double exponenciacao(double a, double b){
         return(Math.pow(a, b));
     }
 
