@@ -8,6 +8,7 @@ public class Expressao extends Calculo{
 
     public Expressao(String expressaoUser) throws Exception{
         this.expressao = transformarExpressao(expressaoUser);
+        realizarExpressao(this.expressao);
     }
 
     private String transformarExpressao(String expressaoUser) throws Exception {
@@ -31,7 +32,7 @@ public class Expressao extends Calculo{
         }
     }
 
-    private void realizarExpressao() throws Exception{
+    private void realizarExpressao(String expressao) throws Exception{
         StringTokenizer quebrador = new StringTokenizer(expressao, "+-*/^()", true);
 
         Pilha<String>   pilhaDeOperacao = new Pilha<String>(expressao.length());
@@ -106,6 +107,11 @@ public class Expressao extends Calculo{
         this.resultado = pilhaResultado.getUmItem();
     }
 
+    public String getResultado(){
+        return this.resultado;
+    }
+
+
     private boolean ehNumero(String pedaco){
         double numero;
 
@@ -145,4 +151,5 @@ public class Expressao extends Calculo{
             return true;
         return false;
     }
+
 }

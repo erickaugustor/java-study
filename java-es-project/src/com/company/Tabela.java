@@ -2,40 +2,29 @@ package com.company;
 
 public class Tabela {
 
-    private static final boolean[][] operadores = new boolean[7][7];
+    private static boolean[][] operadores = new boolean[7][7];
 
     static {
         for(int i=0; i<7; i++){
-            // linha
-            for(int j=0; i<7; j++){
-                //coluna
-                if(i<=1 && i>=0){
-                    operadores[i][j] = false;
-                }else if( i<=3 && i>=2){
-                    if(j<=3 && j>=1){
-                        operadores[i][j] = true;
-                    }else{
-                        operadores[i][j] = false;
-                    }
-                }else if(i<=6 && i>=4){
-                    if(j<=5 && j>=1){
-                        operadores[i][j] = true;
-                    }else{
-                        operadores[i][j] = false;
-                    }
+            for(int j=0; j<7; j++){
+                System.out.println(i);
+                System.out.println(j);
+                if(i == 0){
+                    operadores[i][j] = j == 6;
+                }else if(i>0 && i<4){
+                    operadores[i][j] = j > 1;
+                }else if(i>3 && i<6){
+                    operadores[i][j] = j > 5;
                 }else{
-                    if(j!=6)
-                        operadores[i][j] = true;
-                    else
-                        operadores[i][j] = false;
+                   operadores[i][j] = false;
                 }
             }
         }
     }
 
     protected boolean valorDaOperacao(Character operadorUm, Character operadorDois) throws Exception{
-        int X = 7, Y = 7;
-        Character[] operandos = {'(', '^', '*', '/', '+', '-', };
+        int X = -1, Y = -1;
+        Character[] operandos = {'(', '^', '*', '/', '+', '-', ')'};
 
         for(int i=0; i<7; i++){
             if(operadorUm == operandos[i])
@@ -47,7 +36,7 @@ public class Tabela {
         if(X == 7 || Y ==7)
             throw new Exception("A operação está errada.");
 
-        return operadores[X][Y];
+        return this.operadores[X][Y];
     }
 
 }
