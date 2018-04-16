@@ -108,8 +108,6 @@ public class Expressao extends Calculo{
                 valorUm = Double.parseDouble(pilhaResultado.getUmItem());
                 pilhaResultado.jogueForaUm();
 
-                                System.out.println(valorUm + " " + operacao + " " + valorDois );
-
                 pilhaResultado.guarde(String.valueOf(calcular(valorUm, operacao, valorDois)));
             //}
         }while(!(filaDeCalculo.vazia()));
