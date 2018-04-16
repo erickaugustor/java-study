@@ -7,14 +7,14 @@ public class Tabela {
     static {
         for(int i=0; i<7; i++){
             for(int j=0; j<7; j++){
-                if(i == 0){
-                    operadores[i][j] = j == 6;
-                }else if(i>0 && i<4){
-                    operadores[i][j] = j > 1;
-                }else if(i>3 && i<6){
-                    operadores[i][j] = j > 5;
+                if(i < 2){
+                    operadores[i][j] = false;
+                }else if(i < 4){
+                    operadores[i][j] = j>0 && j<4;
+                }else if(i < 6){
+                    operadores[i][j] = j>0 && j<6;
                 }else{
-                   operadores[i][j] = false;
+                   operadores[i][j] = j == 6;
                 }
             }
         }

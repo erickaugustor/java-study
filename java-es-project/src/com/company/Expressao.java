@@ -98,7 +98,7 @@ public class Expressao extends Calculo{
                 filaDeCalculo.jogueForaUmItem();
             }
 
-            if(ehOperador(filaDeCalculo.getUmItem().charAt(0))){
+            //if(ehOperador(filaDeCalculo.getUmItem().charAt(0))){
                 operacao = filaDeCalculo.getUmItem().charAt(0);
                 filaDeCalculo.jogueForaUmItem();
 
@@ -111,7 +111,7 @@ public class Expressao extends Calculo{
                                 System.out.println(valorUm + " " + operacao + " " + valorDois );
 
                 pilhaResultado.guarde(String.valueOf(calcular(valorUm, operacao, valorDois)));
-            }
+            //}
         }while(!(filaDeCalculo.vazia()));
 
         this.resultado = pilhaResultado.getUmItem();
