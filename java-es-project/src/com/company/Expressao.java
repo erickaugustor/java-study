@@ -54,18 +54,25 @@ public class Expressao extends Calculo{
 
                     if(pilhaDeOperacao.estaVazia())
                         throw new Exception("Você colocou um fecha errado!");
-                }while(pilhaDeOperacao.getUmItem().charAt(0) != '(' && pilhaDeOperacao.estaVazia());
+
+                }while(!ehAbre(pilhaDeOperacao.getUmItem().charAt(0)));
+                pilhaDeOperacao.jogueForaUm();
 
             }else if(ehNumero(pedacoDaOperacao)){
                 filaDeCalculo.guarde(pedacoDaOperacao);
 
             }else if(ehOperador(pedacoDaOperacao.charAt(0))){
+
                 if(!(pilhaDeOperacao.estaVazia())){
-                    while(!(pilhaDeOperacao.estaVazia()) && tabela.valorDaOperacao(pedacoDaOperacao.charAt(0), pilhaDeOperacao.getUmItem().charAt(0))){
+
+                    while(!pilhaDeOperacao.estaVazia() && tabela.valorDaOperacao(pedacoDaOperacao.charAt(0), pilhaDeOperacao.getUmItem().charAt(0))){
                         filaDeCalculo.guarde(pilhaDeOperacao.getUmItem());
+                        pilhaDeOperacao.jogueForaUm();
                     }
                     pilhaDeOperacao.guarde(pedacoDaOperacao);
-                }else {
+
+
+                }else{
                     pilhaDeOperacao.guarde(pedacoDaOperacao);
                 }
             }else{
@@ -74,11 +81,12 @@ public class Expressao extends Calculo{
 
         }while(quebrador.hasMoreTokens());
 
-        while(!(pilhaDeOperacao.estaVazia())){
+        while(!pilhaDeOperacao.estaVazia()){
+            if(ehAbre(pilhaDeOperacao.getUmItem().charAt(0)))
+                throw new Exception("Operação inválida! :(");
             filaDeCalculo.guarde(pilhaDeOperacao.getUmItem());
             pilhaDeOperacao.jogueForaUm();
         }
-
 
         Pilha<String>   pilhaResultado  = new Pilha<String>(filaDeCalculo.getQuantosElementos());
         char operacao;
@@ -97,8 +105,10 @@ public class Expressao extends Calculo{
                 valorDois = Double.parseDouble(pilhaResultado.getUmItem());
                 pilhaResultado.jogueForaUm();
 
-                valorUm = Double.parseDouble(pilhaDeOperacao.getUmItem());
+                valorUm = Double.parseDouble(pilhaResultado.getUmItem());
                 pilhaResultado.jogueForaUm();
+
+                                System.out.println(valorUm + " " + operacao + " " + valorDois );
 
                 pilhaResultado.guarde(String.valueOf(calcular(valorUm, operacao, valorDois)));
             }

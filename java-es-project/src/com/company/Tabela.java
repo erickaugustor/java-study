@@ -7,8 +7,6 @@ public class Tabela {
     static {
         for(int i=0; i<7; i++){
             for(int j=0; j<7; j++){
-                System.out.println(i);
-                System.out.println(j);
                 if(i == 0){
                     operadores[i][j] = j == 6;
                 }else if(i>0 && i<4){
@@ -23,7 +21,7 @@ public class Tabela {
     }
 
     protected boolean valorDaOperacao(Character operadorUm, Character operadorDois) throws Exception{
-        int X = -1, Y = -1;
+        int X = 7, Y = 7;
         Character[] operandos = {'(', '^', '*', '/', '+', '-', ')'};
 
         for(int i=0; i<7; i++){

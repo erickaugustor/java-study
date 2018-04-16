@@ -32,16 +32,17 @@ public class Pilha<X> implements Cloneable {
         if(x == null)
             throw new Exception("Sem informação!");
 
-        if((this.posicaoTopo + 1) == this.pilha.length)
-
-        if(x instanceof Cloneable){
-            this.pilha[this.posicaoTopo] = meuCloneDeX(x);
-
-        }else{
-            this.pilha[this.posicaoTopo] = x;
-        }
+        // if((posicaoTopo + 1) == this.pilha.length)
 
         this.posicaoTopo++;
+
+        if(x instanceof Cloneable){
+            this.pilha[posicaoTopo] = meuCloneDeX(x);
+
+        }else{
+            this.pilha[posicaoTopo] = x;
+        }
+
     }
 
     public X getUmItem() throws Exception{
@@ -65,7 +66,7 @@ public class Pilha<X> implements Cloneable {
     }
 
     public int getQuantosElementos(){
-        return this.posicaoTopo;
+        return this.posicaoTopo+1;
     }
 
     public boolean estaVazia(){
