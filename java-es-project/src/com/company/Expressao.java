@@ -3,7 +3,7 @@ package com.company;
 import java.lang.reflect.Method;
 import java.util.StringTokenizer;
 
-public class Expressao extends Calculo {
+public class Expressao extends Calculo{
 
     private String expressao, resultado;
 
@@ -114,6 +114,11 @@ public class Expressao extends Calculo {
         } while (!(filaDeCalculo.vazia()));
 
         this.resultado = pilhaResultado.getUmItem();
+
+        pilhaDeOperacao = null;
+        pilhaResultado = null;
+        filaDeCalculo = null;
+        tabela = null;
     }
 
     public String getResultado() {
