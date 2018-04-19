@@ -4,6 +4,7 @@ import java.lang.reflect.Method;
 
 public class Pilha<X> implements Cloneable {
     private Object[] pilha;
+    private int tamanho;
     private int posicaoTopo = -1;
 
     /* Construtor */
@@ -11,7 +12,7 @@ public class Pilha<X> implements Cloneable {
         if(tamanho <= 0){
             throw new Exception("Tamanho menor que zero! Tente um valor válido");
         }
-
+        this.tamanho = tamanho;
         this.pilha = new Object[tamanho];
     }
 
@@ -76,7 +77,7 @@ public class Pilha<X> implements Cloneable {
     }
 
     public boolean estaCheia(){
-        if(posicaoTopo == pilha.length-1)
+        if(posicaoTopo == tamanho)
             return true;
         return false;
     }
@@ -126,12 +127,12 @@ public class Pilha<X> implements Cloneable {
         int ret = 666;
 
         ret = 7 * ret + new Integer(this.posicaoTopo).hashCode();
+        ret = 7 * ret + new Integer(this.tamanho).hashCode();
 
         int pos = this.posicaoTopo;
 
         while(pos > -1){
             ret = 7 * ret + this.pilha[pos].hashCode();
-
             pos--;
         }
 
@@ -144,6 +145,7 @@ public class Pilha<X> implements Cloneable {
             throw new Exception("Modelo ausente");
         }
 
+        this.tamanho = modelo.tamanho;
         this.posicaoTopo = modelo.posicaoTopo;
         this.pilha = new Object[modelo.pilha.length];
 
