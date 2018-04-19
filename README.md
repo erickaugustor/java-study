@@ -12,4 +12,5 @@ Agora, objetos de softwares também consistem em comportamentos e estados. Ele g
 <br>
 É um template, ou 'blueprint'. Mas quais são seus benefícios? Os data types abragem um contexto muito pequeno, assim, foram criada as classes, como se fosse um data type, algo bem mais evoluido que os tipos primitivos de variáveis. 
 <br>
-<b>+ Projeto - Calculadora de Expressão</b>
+<br>
+<b>+ Projeto - Calculadora de Expressão</b>: <i>Trabalho do terceiro semestre de Engenharia de software.</i>
