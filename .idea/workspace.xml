@@ -2,175 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6c381ea-1d1a-43fa-b9a5-e77f33848f76" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/study/innerClass/Gearbox.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/study/innerClass/Main.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/java-es-project.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/out/production/java-es-project/com/company/Calculo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/out/production/java-es-project/com/company/Expressao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/out/production/java-es-project/com/company/Fila.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/out/production/java-es-project/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/out/production/java-es-project/com/company/Pilha.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/out/production/java-es-project/com/company/Tabela.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/src/com/company/Calculo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/src/com/company/Expressao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/src/com/company/Fila.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/src/com/company/Pilha.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es-project/src/com/company/Tabela.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/.idea/java-es.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/SoftwareEngineering.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/out/production/SoftwareEngineering/com/projeto1/Fila.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/out/production/SoftwareEngineering/com/projeto1/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/out/production/SoftwareEngineering/com/projeto1/Pilha.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/out/production/SoftwareEngineering/study/oop/constructos/Constructors.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/out/production/SoftwareEngineering/study/oop/constructos/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/out/production/SoftwareEngineering/study/oop/master/Hamburger.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/out/production/SoftwareEngineering/study/oop/master/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/com/project1/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/com/project1/Queue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/com/projeto1/Fila.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/com/projeto1/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/com/projeto1/Pilha.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/study/generics/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/study/oop/constructos/Constructors.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/study/oop/constructos/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/study/oop/master/DeluxeBurger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/study/oop/master/Hamburger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/study/oop/master/HealthyBurger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-es/SoftwareEngineering/src/study/oop/master/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/.idea/java-study.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/.idea/workspace.xml" afterPath="$PROJECT_DIR$/java-study/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/java-study/1.HelloWorld/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/1.HelloWorld/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/1.HelloWorld/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/1.HelloWorld/1.HelloWorld.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/1.HelloWorld/out/production/1.HelloWorld/Hello.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/1.HelloWorld/src/Hello.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/2.DataType+Operators/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/2.DataType+Operators/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/2.DataType+Operators/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/2.DataType+Operators/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/2.DataType+Operators/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/2.DataType+Operators/2.DataType+Operators.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/2.DataType+Operators/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/3.ExpressionsStatementsMethods/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/3.ExpressionsStatementsMethods/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/3.ExpressionsStatementsMethods/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/3.ExpressionsStatementsMethods/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/3.ExpressionsStatementsMethods/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/3.ExpressionsStatementsMethods/3.ExpressionsStatementsMethods.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/3.ExpressionsStatementsMethods/out/production/3.ExpressionsStatementsMethods/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/3.ExpressionsStatementsMethods/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/4.ControlFlow/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/4.ControlFlow/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/4.ControlFlow/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/4.ControlFlow/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/4.ControlFlow/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/4.ControlFlow/4.ControlFlow.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/4.ControlFlow/out/production/4.ControlFlow/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/4.ControlFlow/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/out/production/untitled104/com/company/Car.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/out/production/untitled104/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/src/com/company/Car.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Classes/untitled104.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/Constructors.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/out/production/Constructors/com/company/Bank.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/out/production/Constructors/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/out/production/Constructors/com/company/VipCustomer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/src/com/company/Bank.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Constructors/src/com/company/VipCustomer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/Inheritance.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/out/production/Inheritance/com/company/Animal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/out/production/Inheritance/com/company/Dog.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/out/production/Inheritance/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/src/com/company/Animal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/src/com/company/Dog.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/src/com/company/Fish.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/Inheritance/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/InheritanceChallenge.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/out/production/InheritanceChallenge/com/company/Car.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/out/production/InheritanceChallenge/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/out/production/InheritanceChallenge/com/company/Outlander.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/out/production/InheritanceChallenge/com/company/Vehicle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/src/com/company/Car.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/src/com/company/Outlander.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/5.OOP/InheritanceChallenge/src/com/company/Vehicle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/Composition.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/Car.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/Case.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/Dimensions.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/Monitor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/Motherboard.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/PC.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/Resolution.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/out/production/Composition/com/company/Vehicle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/Car.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/Case.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/Dimensions.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/Monitor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/Motherboard.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/PC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/Resolution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/Composition/src/com/company/Vehicle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/.idea/description.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/.idea/project-template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/CompositionChallenge.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/src/com/company/Bed.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/src/com/company/Bedroom.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/src/com/company/Ceiling.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/src/com/company/Lamp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/src/com/company/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java-study/6.OOP/CompositionChallenge/src/com/company/Wall.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/java-study/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/study/interfaces/DeskPhone.java" afterPath="$PROJECT_DIR$/src/study/interfaces/DeskPhone.java" />
+      <change beforePath="$PROJECT_DIR$/src/study/interfaces/ITelephone.java" afterPath="$PROJECT_DIR$/src/study/interfaces/ITelephone.java" />
+      <change beforePath="$PROJECT_DIR$/src/study/interfaces/Main.java" afterPath="$PROJECT_DIR$/src/study/interfaces/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/study/interfaces/MobilePhone.java" afterPath="$PROJECT_DIR$/src/study/interfaces/MobilePhone.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,12 +20,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Gearbox.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/study/innerClass/Gearbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/study/innerClass/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -194,9 +46,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>com.company</find>
+      <find>Rining</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,10 +91,19 @@
         <option value="$PROJECT_DIR$/src/study/oop/CompositionChallenge/Main.java" />
         <option value="$PROJECT_DIR$/src/study/dataType/Main.java" />
         <option value="$PROJECT_DIR$/src/study/controlFlow/Main.java" />
+        <option value="$PROJECT_DIR$/src/study/interfaces/ITelephone.java" />
+        <option value="$PROJECT_DIR$/src/study/interfaces/DeskPhone.java" />
+        <option value="$PROJECT_DIR$/src/study/interfaces/MobilePhone.java" />
+        <option value="$PROJECT_DIR$/src/study/interfaces/Main.java" />
+        <option value="$PROJECT_DIR$/src/study/innerClasses.java" />
+        <option value="$PROJECT_DIR$/src/study/Gearbox.java" />
+        <option value="$PROJECT_DIR$/src/study/oop/Main.java" />
+        <option value="$PROJECT_DIR$/src/study/innerClass/Main.java" />
+        <option value="$PROJECT_DIR$/src/study/innerClass/Gearbox.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -254,10 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,10 +142,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,8 +227,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -365,8 +241,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41287285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -376,6 +251,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -415,14 +291,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/study/Main.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/study/oop/Inheritance/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -443,7 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -451,7 +327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,7 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,7 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -483,7 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,7 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +397,6 @@
           <caret line="12" column="263" lean-forward="true" selection-start-line="12" selection-start-column="263" selection-end-line="12" selection-end-column="263" />
           <caret line="12" column="303" lean-forward="true" selection-start-line="12" selection-start-column="303" selection-end-line="12" selection-end-column="303" />
           <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,7 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,6 +484,71 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/interfaces/ITelephone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/interfaces/DeskPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="e#166#167#0" expanded="false" />
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#356#357#0" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/interfaces/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/interfaces/MobilePhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#245#246#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1097#1098#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/innerClass/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/innerClass/Gearbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
