@@ -1,5 +1,4 @@
-package com.company.DominandoOMonstro;
-
+package studyEs.thread.DominandoOMonstro;
 
 import java.lang.reflect.Method;
 

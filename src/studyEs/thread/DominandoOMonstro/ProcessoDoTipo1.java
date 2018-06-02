@@ -1,4 +1,4 @@
-package com.company.DominandoOMonstro;
+package studyEs.thread.DominandoOMonstro;
 
 public class ProcessoDoTipo1 extends Thread {
 

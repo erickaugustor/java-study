@@ -1,4 +1,4 @@
-package com.company.DominandoOMonstro;
+package studyEs.thread.DominandoOMonstroComElegancia;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,7 +20,7 @@ public class Main {
 
         }
 
-        //Fila<String> f = new Fila<String> (100);
+        Fila<String> f = new Fila<String> (100);
 
         ProcessoDoTipo1 a = new ProcessoDoTipo1(f);
         a.start();  //esse método é de Thread

@@ -1,4 +1,4 @@
-package com.company.DominandoOMonstroComElegancia;
+package studyEs.thread.DominandoOMonstroComElegancia;
 
 import java.lang.reflect.Method;
 
